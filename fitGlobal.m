@@ -75,11 +75,11 @@ save([nameGlob '/' 'fit' nameGlob])
         temps = t0:0.1:T;
         Xp = HmodelFull(param,temps);
         plot(temps,Xp(:,1))
-        yLim = get(gca,'YLim');
+%         yLim = get(gca,'YLim');
         hold on
         plot(time,Data,'*','Markersize',5)
         plot(temps,Xp(:,2),'r')
-        set(gca,'YLim',yLim);
+        set(gca,'YLim',[0, 2500], 'XLim', [5, 20]);
         hold off
         
         xlabel('Time (days)','Fontsize',font)

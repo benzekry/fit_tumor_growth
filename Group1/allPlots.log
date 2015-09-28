@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  21 SEP 2015 18:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 SEP 2015 12:26
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -401,7 +401,7 @@ Here is how much of TeX's memory you used:
  957 hyphenation exceptions out of 8191
  37i,10n,32p,237b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on allPlots.pdf (1 page, 51816 bytes).
+Output written on allPlots.pdf (1 page, 55116 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
