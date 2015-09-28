@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+%\input{commandPlotResults.tex}
+\usepackage[frenchb,english]{babel}
+\usepackage[margin=0in]{geometry}
+\usepackage{graphicx}
+\usepackage{calc}
+
+\newcounter{NbPlots}
+\setcounter{NbPlots}{20} % Enter number of plots here
+\newcounter{var}\setcounter{var}{\value{NbPlots}-1}
+\newcounter{NbRaw}
+\setcounter{NbRaw}{4}
+%\addtocounter{NbRaw}{1}
+\newcounter{Height}
+\setcounter{Height}{\value{NbRaw}*153}
+
+\setlength{\paperwidth}{610mm} % NbCol*203.2mm
+\setlength{\textwidth}{\paperwidth}
+\setlength{\paperheight}{380 mm} % NbRaw*152.4mm
+\setlength{\textheight}{\paperheight}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\newcommand{\includeImage}[1]{\includegraphics[width=0.195\textwidth]{#1}}
+
+\pagenumbering{gobble}
+\begin{center}
+\begin{tabular}{ccccc}
+\includeImage{1} & 
+\includeImage{2} & 
+\includeImage{3} &
+\includeImage{4} &
+\includeImage{5} \\ 
+\includeImage{6} &
+\includeImage{7} & 
+\includeImage{8} &
+\includeImage{9} &
+\includeImage{10} \\
+\includeImage{11} & 
+\includeImage{12} & 
+\includeImage{13} &
+\includeImage{14} &
+\includeImage{15} \\ 
+\includeImage{16} &
+\includeImage{17} & 
+\includeImage{18} &
+\includeImage{19} &
+\includeImage{20} 
+\end{tabular}
+\end{center}
+\end{document}
